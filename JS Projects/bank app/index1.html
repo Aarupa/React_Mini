@@ -1,0 +1,190 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+
+    <div class="main" id="mainId">
+
+        <h1>Registration </h1>
+
+        <div class="container">
+
+            <form id="registrationForm">
+                <div>
+                    <label for="eid">Employee ID:</label> <br/>
+                    <input type="text" id="eid" placeholder="Do not Required">
+                </div>
+                <div>
+                    <label for="fname">First Name:</label> <br/>
+                    <input type="text" id="fname"  autocomplete="given-name" name="fname" maxlength="50" required>
+                </div>
+                <div>
+                    <label for="lname">Last Name:</label> <br/>
+                    <input type="text" id="lname" name="lname"  autocomplete="family-name"  maxlength="50" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label> <br/>
+                    <input type="email" id="email"  autocomplete="off" name="email" required>
+                </div>
+                <div>
+                    <label for="pass">Password:</label> <br/>
+                    <input type="password" id="pass" name="pass" maxlength="16" required>
+                </div>
+                <div>
+                    <label for="cpass">Confirm Password:</label> <br/>
+                    <input type="password" id="cpass" name="cpass" maxlength="16" required>
+                </div>
+                <div>
+                    <label for="addr">Address:</label> <br/>
+                    <textarea id="addr" name="addr" maxlength="100" required></textarea>
+                </div>
+                <div>
+                    <label for="cno">Contact Number:</label> <br/>
+                    <input type="text" id="cno" name="cno" maxlength="10" minlength="10" required>
+                </div>
+                <br/>
+                <div class = "btn">
+                    <button type="submit">Register</button>
+                    <button><a href="welcome.html">Cancel</a></button>
+                </div>
+                <br>
+                
+
+            </form>
+
+        </div>
+    </div>
+    <div class="acknowledgment" id="acknowledgment" onclick="clickHandler()">
+
+        <h1 class="success-message">Customer Registration successful.</h1>
+        <p><strong>Customer Id:</strong> <span id="customerId"></span></p>
+        <p><strong>Customer Name:</strong> <span id="customerName"></span></p>
+        <p><strong>Email:</strong> <span id="customerEmail"></span></p>
+      </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"yy content="width=device-width, initial-scale-1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+
+    <div class="main" id="mainId">
+
+        <h1>Registration </h1>
+
+        <div class="container">
+
+            <form id="registrationForm">
+                <div>
+                    <label for="cid">Customer ID:</label> <br/>
+                    <input type="text" id="cid" name="cid" Placeholder="Randomly generated">
+                </div>
+                <div>
+                    <label for="fname">Full Name:</label> <br/>
+                    <input type="text" id="fname" name="fname" maxlength="50" required>
+                </div>
+                <div>
+                    <label for="ano">Account No:</label> <br/>
+                    <input type="number" id="ano" name="ano" maxlength="16" required>
+                </div>
+                <div>
+                    <label for="ifsc">IFSC Code:</label> <br/>
+                    <input type="text" id="ifsc" name="ifsc" maxlength="50" required>
+                </div>
+                <div>
+                    <label for="ab">Account Balence:</label> <br/>
+                    <input type="number" id="ab" name="ab" maxlength="10" required>
+                </div>
+                <div>
+                    <label for="adr">Adhaar No:</label> <br/>
+                    <input type="number" id="adr" name="adr" maxlength="16" minlength="16" required>
+                </div>
+                <div>
+                    <label for="pan">Pan No:</label> <br/>
+                    <input type="text" id="pan" name="pan" maxlength="50" required>
+                </div>
+                <div>
+                    <label for="dob">Date Of Birth:</label> <br/>
+                    <input type="date" id="dob" name="dob" maxlength="50" required>
+                </div>
+                
+                <!-- <div class="gender">
+                    <label for="gen">Gender : </label> 
+                    <div>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gen" value="male">
+                    </div>
+                    <div>
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gen" value="female">
+                    </div>
+                <div>
+                
+                 <div class="status">
+                    <label for="mstat">Marital Status:</label>
+                    <div>
+                        <label for="married">Married</label>
+                        <input type="radio" id="married" name="status" value="married">
+                    </div>
+                    <div>
+                        <label for="unmarried">Unmarried</label>
+                        <input type="radio" id="unmarried" name="status" value="unmarried">
+                    </div>
+                <div>   
+                  -->
+                    <label for="email">Email:</label> <br/>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="addr">Address:</label> <br/>
+                    <textarea id="addr" name="addr" maxlength="100" required></textarea>
+                </div>
+                <div>
+                    <label for="cno">Contact Number:</label> <br/>
+                    <input type="text" id="cno" name="cno" maxlength="10" minlength="10" required>
+                </div>
+                <br/>
+                <div class = "btn">
+                    <button type="submit">Register</button>
+                    <button><a href="welcome.html">Cancel</a></button>
+                </div>
+                <br>
+                
+
+            </form>
+
+        </div>
+    </div>
+    <div class="acknowledgment" id="acknowledgment" onclick="clickHandler()">
+
+        <h1 class="success-message">Customer Registration successful.</h1>
+        <p><strong>Customer Id:</strong> <span id="customerId" ></span></p>
+        <p><strong>Customer Name:</strong> <span id="customerName"></span></p>
+        <p><strong>Email:</strong> <span id="customerEmail"></span></p>
+      </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

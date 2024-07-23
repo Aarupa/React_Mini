@@ -1,0 +1,31 @@
+h2{
+    justify-content: center;
+    text-align: center;
+}
+
+#add{
+    display: flex;
+    float: left;
+    width: 87%;
+}
+
+#btn{
+    float: right;
+}
+
+#p{
+    float: right;
+    padding: 1px;
+}
+
+.buttons{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.tasklist{
+    position: absolute;
+    top: 30%;
+    list-style-type: none;
+}

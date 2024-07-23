@@ -1,0 +1,63 @@
+body{
+     background-color: black; 
+}
+
+h1{
+    color: bisque;
+    text-align: center;
+    font-family: monospace;
+}
+
+input[ type =  "text" ] {
+    position: absolute;
+    left: 35%;
+    height: 40px;
+    width: 350px;
+    border: solid rgb(194, 157, 157) 3px;
+}
+
+input[id = "add" ]{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+   height: 35px;
+   width: 100px;
+   /* border-radius: 50%; */
+   border: solid rgb(93, 80, 80) 3px;
+   background-color: black;
+   color: white;
+   font-family: cursive;
+   font-size: 20px;
+   cursor: pointer;
+   
+}
+
+input[id = "clr"]{
+    top: 30%;
+   left: 55%;
+   height: 35px;
+   width: 100px;
+   position: absolute;
+   border: solid rgb(194, 157, 157) 3px;
+   background-color:black;
+   color: white;
+   font-family: cursive;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+input[placeholder]{
+    font-family: cursive;
+}
+
+
+#ul{
+    top: 45%;
+    position: absolute;
+    left: 35%;
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+    font-family: cursive;
+    cursor: pointer;
+}
