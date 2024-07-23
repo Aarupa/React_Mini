@@ -1,0 +1,33 @@
+{
+    "places": [
+      {
+        "id": 1,
+        "name": "Eiffel Tower",
+        "image": "../assets/pexels-suissounet-1530259.jpg",
+        "description": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower.",
+        "location": "Paris, France"
+      },
+      {
+        "id": 2,
+        "name": "Grand Canyon",
+        "image": "grand_canyon.jpg",
+        "description": "The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona, United States. It is one of the Seven Natural Wonders of the World and is largely contained within Grand Canyon National Park.",
+        "location": "Arizona, United States"
+      },
+      {
+        "id": 3,
+        "name": "Machu Picchu",
+        "image": "machu_picchu.jpg",
+        "description": "Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a mountain ridge 2,430 meters (7,970 ft) above sea level. It is situated above the Sacred Valley, which is 80 kilometers (50 mi) northwest of Cuzco and through which the Urubamba River flows.",
+        "location": "Cusco Region, Peru"
+      },
+      {
+        "id": 4,
+        "name": "Sydney Opera House",
+        "image": "sydney_opera_house.jpg",
+        "description": "The Sydney Opera House is a multi-venue performing arts centre at Sydney Harbour in Sydney, New South Wales, Australia. It is one of the 20th century's most famous and distinctive buildings.",
+        "location": "Sydney, Australia"
+      }
+    ]
+  }
+  
